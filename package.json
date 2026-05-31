@@ -7,14 +7,14 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "drizzle-orm": "^0.37.0",
-    "hono": "^4.6.12",
-    "postgres": "^3.4.5"
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.12.23",
+    "postgres": "^3.4.9"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241205.0",
-    "@types/node": "^22.10.1",
-    "drizzle-kit": "^0.29.1",
-    "wrangler": "^3.92.0"
+    "@cloudflare/workers-types": "^4.20260531.1",
+    "@types/node": "^22.19.19",
+    "drizzle-kit": "^0.31.10",
+    "wrangler": "4"
   }
 }
