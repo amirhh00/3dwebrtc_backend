@@ -7,7 +7,7 @@ import { getCurrentRoomState, hashUUIDtoSimpleInteger } from "../../../utils/db.
 export const router = new Hono<{ Bindings: Env }>();
 
 /**
- * @description create a new room using server sent events (SSE) and return the roomId while listening for the room's changes (notifiacations)
+ * @description create a new room using websockets and return the roomId while listening for the room's changes (notifiacations)
  */
 router.get(
   "/",
